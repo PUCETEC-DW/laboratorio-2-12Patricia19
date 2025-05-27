@@ -1,0 +1,12 @@
+{
+  "name": "laboratorio-2-12patricia19",
+  "version": "1.0.0",
+  "homepage": "https://12Patricia19.github.io/laboratorio-2-12Patricia19",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
