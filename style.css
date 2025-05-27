@@ -1,0 +1,60 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f6fb;
+  margin: 0;
+  padding: 0;
+}
+
+input#buscar {
+  display: block;
+  margin: 40px auto 20px auto;
+  padding: 12px 18px;
+  width: 320px;
+  border: 1px solid #bfc9d9;
+  border-radius: 8px;
+  font-size: 1.1em;
+  box-shadow: 0 2px 8px #e3e8f0;
+  outline: none;
+  transition: border 0.2s;
+}
+
+input#buscar:focus {
+  border: 1.5px solid #4f8cff;
+}
+
+#resultado {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#resultado div {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #e3e8f0;
+  margin-bottom: 18px;
+  padding: 18px 22px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+#resultado img {
+  border-radius: 6px;
+  border: 1px solid #e3e8f0;
+  width: 48px;
+  height: 32px;
+  object-fit: cover;
+}
+
+#resultado h3 {
+  margin: 0 0 6px 0;
+  font-size: 1.15em;
+  color: #2d3a4a;
+}
+
+#resultado p {
+  margin: 2px 0;
+  color: #4f5b6b;
+  font-size: 0.98em;
+}
